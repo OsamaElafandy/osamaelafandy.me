@@ -376,6 +376,7 @@ img {
 /* ABOUT */
 .about-container-img {
   display: flex;
+  margin: auto;
   justify-content: center;
 }
 
