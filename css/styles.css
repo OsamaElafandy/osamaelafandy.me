@@ -354,6 +354,7 @@ img {
 }
 
 .button-white {
+  margin-bottom:30px ;
   background-color: #fff;
   color: var(--first-color);
 }
