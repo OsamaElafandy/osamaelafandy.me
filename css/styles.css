@@ -1307,4 +1307,63 @@ img {
     margin-left: var(--mb-1);
   }
 }
+
+#cars{
+
+  padding: 10px;
+}
+.receipe{
+  position: relative;
+  transition: all 2s;
+  margin-bottom: 30px;
+}
+.receipe img{
+  height: 300px;
+  border-radius:50%;
+}
+.edit{
+  height: 250px;
+}
+
+.receipe-caption{
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.receipe-caption h3{
+  color: #FFF ;
+  
+} 
+.receipe:hover .receipe-caption{
+  opacity: 1; 
+  z-index: 1;
+}
+.slider{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(18, 20, 20, 0.63);
+  opacity: 0;
+  transition: all 1s;
+}
+.receipe:hover .slider{
+  opacity: 1;
+}
+#cars .paragraf{
+  color: #FFF ;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.h2details{
+  color: #FFF ;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /*# sourceMappingURL=styles.css.map */
